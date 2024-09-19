@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zahlenratespiel</title>
+        <link rel="stylesheet" href="style.css">
+        
+	</head>
+
+	<body>
+	 
+     <h1>Zahlenratespiel</h1>
+		
+	 <h2>Errate die Zahl zwischen 0 und 100!</h2> <!--mittlerer Modus-->
+		
+	 <div style="height: 150px">
+     <label for="guessField">Deine Zahl: </label>
+	 <input id="inputGuess">
+	 <button onclick="checkNumber()">Überprüfen</button>
+     <p id="outputResult"></p>
+	 <p id="outputCount"></p>
+	</div>
+    
+    <button onclick="newGame()">Neu beginnen</button>
+
+	</body>
+    
+    <script src="script.js"></script>
+
+
+</html>
